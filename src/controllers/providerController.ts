@@ -1,4 +1,4 @@
-This is the new update
+This new
 // CREATE a new provider (with email uniqueness check)
 export const createProvider = async (req: Request, res: Response) => {
   try {
