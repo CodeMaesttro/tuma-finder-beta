@@ -1,3 +1,7 @@
+import { Request, Response } from 'express';
+import Provider, { IProvider } from '../models/Provider';
+
+// ------------------- WEEK 1: BASIC CRUD -------------------
 
 // CREATE a new provider (with email uniqueness check)
 export const createProvider = async (req: Request, res: Response) => {
