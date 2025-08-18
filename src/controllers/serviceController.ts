@@ -1,5 +1,4 @@
-import { Request, Response } from 'express';
-import Service, { IService } from '../models/Service';
+
 
 // CREATE a new service
 export const createService = async (req: Request, res: Response) => {
