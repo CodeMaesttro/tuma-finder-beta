@@ -12,7 +12,7 @@ export const createProvider = async (req: Request, res: Response) => {
     if (!name || !email || !phone || !service || !location) {
       return res.status(400).json({ message: 'Missing required fields' });
     }
-
+  
     // Email uniqueness check
     const existing = await Provider.findOne({ email });
     if (existing) {
